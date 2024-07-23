@@ -3,12 +3,12 @@ const V3SwapRouterABI = require("./abis/ISwapRouter.json");
 const PeripheryPaymentsABI = require("./abis/IPeripheryPayments.json");
 const MultiCallABI = require("./abis/IMulticall.json");
 const ERC20ABI = require("./abis/IERC20.json");
-const V3QuoterABI = require("./abis/IQuoter.json");
+// const V3QuoterABI = require("./abis/IQuoter.json");
 
 const V3SwapRouterAddress = "0xE592427A0AEce92De3Edee1F18E0157C05861564";
-const V3QuoterAddress = "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6";
+// const V3QuoterAddress = "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6";
 const WETH = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
-const DAI = "0x6B175474E89094C44Da98b954EedeAC495271d0F";
+// const DAI = "0x6B175474E89094C44Da98b954EedeAC495271d0F";
 const USDC = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48";
 const WBTC = "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599";
 const USDT = "0xdAC17F958D2ee523a2206206994597C13D831ec7"
