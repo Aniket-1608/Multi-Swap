@@ -152,11 +152,11 @@ const Swap = () => {
                 method: 'eth_chainId'
             });
             console.log(currentNetwork);
-            if (currentNetwork !== "0xaa36a7") {
+            if (currentNetwork !== "0x7a69") {
                 //change the metamask network from any other network to sepolia testnet
                 await window.ethereum.request({
                     method: 'wallet_switchEthereumChain',
-                    params: [{ chainId: "0xaa36a7" }]
+                    params: [{ chainId: "0x7a69" }]
                 });
             }
 
