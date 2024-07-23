@@ -78,7 +78,7 @@ To install this project, follow these steps:
 
 ```bash
 
-git clone https://github.com/yourusername/multiswap-token.git
+git clone https://github.com/Aniket-1608/Multi-Swap.git
 
 ```
 
