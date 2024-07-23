@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333333;
+}
+
+.connect-wallet {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.connect-wallet:hover {
+    background-color: #0056b3;
+}
+
+.swap-section {
+    margin-block: 10px;
+    width: auto;
+}
+
+.swap-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.swap-row label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555555;
+    width: 180px;
+    justify-content: center;
+    align-content: center;
+}
+
+.swap-row select, .swap-row input {
+    padding: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    width: 50%;
+    transition: border-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.swap-row select:focus, .swap-row input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.swap-row h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #555555;
+    text-align: center;
+    width: 50%;
+    align-content: center;
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
